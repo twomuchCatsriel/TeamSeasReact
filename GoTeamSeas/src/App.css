@@ -33,11 +33,11 @@ nav li a {
     color: #006098;
 }
 
+/* TO DO: Make the links float RIGHT somehow. */
+
 nav li a:hover{
     background-color: #47bcc2;
 }
-
-
 
 @media only screen and (max-width: 600px) { /* Mobile Devices */ 
   body {
