@@ -36,10 +36,10 @@ nav li a {
     color: #006098;
 }
 
-nav li a:hover{
+.normalNavLink:hover{
     background-color: #47bcc2;
 }
 
-#showOnMobile{
+.showOnMobile{
   display: none;
 }

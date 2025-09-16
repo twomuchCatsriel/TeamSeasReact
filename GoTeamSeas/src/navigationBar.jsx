@@ -5,15 +5,15 @@ function NavBar(){
         <nav>
             <div>
                 <ul>
-                    <li id="showOnPC"> <img src="./public/teamSeasLogo_Big.png" height={100}></img></li>
-                    <li id="showOnMobile"> <img src="./public/TeamSeasLogo_Round.png" height={50}></img></li>
+                    <li className="showOnPC"> <a href="https://youtube.com"><img src="./public/teamSeasLogo_Big.png" height={100}></img> </a></li>
+                    <li className="showOnMobile"> <a href="https://youtube.com"><img src="./public/TeamSeasLogo_Round.png" height={50}></img> </a></li>
 
                     <div id="links" style={{marginLeft: "auto"}}>
-                        <li> <a href="https://youtube.com">Om Oss</a> </li>
-                        <li> <a href="https://youtube.com">Bli Frivillig</a> </li>
-                        <li> <a href="https://youtube.com">Donasjoner</a> </li>
-                        <li> <a href="https://youtube.com" className="hideOnMobile">Arrangementer</a> </li>
-                        <li> <a href="https://youtube.com" className="hideOnMobile">Logg inn</a> </li>
+                        <li> <a href="https://youtube.com" className="normalNavLink">Om Oss</a> </li>
+                        <li> <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a> </li>
+                        <li> <a href="https://youtube.com" className="normalNavLink">Donasjoner</a> </li>
+                        <li className="hideOnMobile"> <a href="https://youtube.com" className="normalNavLink">Arrangementer</a> </li>
+                        <li className="hideOnMobile"> <a href="https://youtube.com" className="normalNavLink">Logg inn</a> </li>
                     </div>
                 </ul>
             </div>
