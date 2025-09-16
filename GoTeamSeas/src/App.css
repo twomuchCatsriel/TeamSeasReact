@@ -2,6 +2,8 @@ body{
   font-family: Montserrat;
   margin: 0;
   padding: 0;
+
+  background-color: #006098;
 }
 
 nav ul {
@@ -18,6 +20,7 @@ nav ul {
 
 nav li {
     display: inline;
+    padding: 5px;
 }
 
 nav li a {
@@ -29,26 +32,14 @@ nav li a {
     border-radius: 10px;
 
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     color: #006098;
 }
-
-/* TO DO: Make the links float RIGHT somehow. */
 
 nav li a:hover{
     background-color: #47bcc2;
 }
 
-@media only screen and (max-width: 600px) { /* Mobile Devices */ 
-  body {
-    background-color: lightblue;
-  }
-
-  nav img{
-    display: none;
-  }
-
-  nav li a{
-    margin-top: auto;
-  }
+#showOnMobile{
+  display: none;
 }
