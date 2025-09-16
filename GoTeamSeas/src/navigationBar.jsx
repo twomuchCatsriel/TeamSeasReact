@@ -5,9 +5,8 @@ function NavBar(){
         <nav>
             <div>
                 <ul>
-                    
                     <li> <img src="./public/teamSeasLogo_Big.png" height={100}></img></li>
-                    <li> <button id="temp"> BAG MATE! </button></li>
+                    <li> <a href="https://youtube.com">Test Link</a> </li>
                 </ul>
             </div>
         </nav>

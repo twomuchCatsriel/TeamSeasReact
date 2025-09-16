@@ -4,8 +4,51 @@ body{
   padding: 0;
 }
 
+nav ul {
+    list-style-type: none;
+    background-color: #a8dfe2; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    margin: 0 auto;
+    color: black;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+
+    font-weight: bold;
+    font-size: large;
+    color: #006098;
+}
+
+nav li a:hover{
+    background-color: #47bcc2;
+}
+
+
+
 @media only screen and (max-width: 600px) { /* Mobile Devices */ 
   body {
     background-color: lightblue;
+  }
+
+  nav img{
+    display: none;
+  }
+
+  nav li a{
+    margin-top: auto;
   }
 }
