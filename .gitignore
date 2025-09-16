@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+tmp/
+.temp/
+.cache/
+
+# Coverage and test results
+coverage/
+.nyc_output/
+*.lcov
+jest-cache/
+jest-results.json
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+*.zip
