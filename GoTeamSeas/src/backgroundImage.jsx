@@ -1,7 +1,11 @@
 import React from "react";
 
-function setBackgroundImage(props){
-    <img src={props.path} className="backgroundImage"></img>
+function SetBackgroundImage({path}){
+    return(
+    <div className="backgroundImage"> 
+        <img src={path}></img>
+    </div>
+    )
 }
 
-export default setBackgroundImage;
+export default SetBackgroundImage;

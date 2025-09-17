@@ -19,10 +19,14 @@
   nav li a{
     margin-top: auto;
     font-size: small;
-    padding: 4px 4x;
+    padding: 4px 4px;
   }
 
   .hideOnMobile{
     display: none;
+  }
+
+  .contrastTextboxBackground{
+    
   }
 }
