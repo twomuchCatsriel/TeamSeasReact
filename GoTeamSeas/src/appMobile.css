@@ -39,4 +39,14 @@
     width: 90%;
     margin: 0 auto;
   }
+
+  .outerContainer{
+    display: inline;
+    margin-top: 2%;
+  }
+
+  .sidebyside{
+    width: 95%;
+    margin: 10% 2%;
+  }
 }

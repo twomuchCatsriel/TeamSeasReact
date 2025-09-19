@@ -63,12 +63,12 @@ nav li a {
 }
 
 .contrastTextboxBackground{
-  width: 45%;
+  margin: 5% 5%;
 }
 
 #buttonsContainer{
-  width: 50%;
   margin-top: 5%;
+  
 }
 
 .custombuttons{
@@ -90,4 +90,16 @@ nav li a {
 
 a{
   display: inline-block;
+}
+
+.sidebyside{
+  border-radius: 10px;
+  width: 30%;
+  height: 30%;
+}
+
+.outerContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
