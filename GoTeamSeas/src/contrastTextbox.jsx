@@ -7,7 +7,7 @@ function ContrastTextbox({subheaderText, headerText, infoText}){
             <div className="contrastTextboxBackground" style={{
                 backgroundColor: "rgba(0,0,0,0.4)",
                 padding:"10px",
-                borderRadius:"10px 5px",
+                borderRadius:"10px",
 
             }}>
 
@@ -25,7 +25,10 @@ function ContrastTextbox({subheaderText, headerText, infoText}){
                     fontSize: "large"
                 }}>{infoText}</p>
 
-                <CustomButton variant="blue" buttonText="hello world"></CustomButton>
+                <div id="buttonsContainer">
+                    <CustomButton variant="blue" buttonText="Mer Om Oss" linkDestination="https://youtube.com"></CustomButton>
+                    <CustomButton variant="orange" buttonText="Støtt oss" linkDestination="https://youtube.com"></CustomButton>
+                </div>
             </div>
         </div>)
 }

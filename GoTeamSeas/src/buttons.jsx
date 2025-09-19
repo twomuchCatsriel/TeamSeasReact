@@ -1,22 +1,22 @@
 import React from "react";
 
-function CustomButton({variant, buttonText}){
+function CustomButton({variant, buttonText, linkDestination}){
     if(variant == "blue"){
         return(
-            <button className="custombuttons" style={{
+            <a className="custombuttons" style={{
                 backgroundColor:"#006098",
-            }}>
+            }} href={linkDestination}>
                 {buttonText}
-            </button>
+            </a>
         )
     } 
     else if(variant == "orange"){
         return(
-            <button className="custombuttons" style={{
+            <a className="custombuttons" style={{
                 backgroundColor:"#ef7517",
-            }}>
-                {buttonText}   
-            </button>
+            }} href={linkDestination}>
+                {buttonText}
+            </a>
         )
     }
 }

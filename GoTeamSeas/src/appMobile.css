@@ -30,4 +30,13 @@
     width: 85%;
     margin: 0 auto;
   }
+
+  .custombuttons{
+    padding: 5% 5%;
+  }
+
+  #buttonsContainer{
+    width: 90%;
+    margin: 0 auto;
+  }
 }
