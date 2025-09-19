@@ -61,3 +61,17 @@ nav li a {
 .showOnMobile{
   display: none;
 }
+
+.contrastTextboxBackground{
+  width: 45%;
+}
+
+.custombuttons{
+    padding: 20px 36px;
+    color: white;
+    border-radius: 10px;
+    border: solid white 2px;
+    font-size: large;
+    margin-top: 5%;
+    box-shadow: black 5px 5px 5px;
+}
