@@ -42,11 +42,27 @@
 
   .outerContainer{
     display: inline;
-    margin-top: 2%;
   }
 
   .sidebyside{
+    display: block;
     width: 90%;
-    margin: 10% 2%;
+    margin: 0 auto;
+  }
+
+  .containerDiv{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .paragraphText{
+    width: 95%;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .textDiv{
+    width: 95%;
+    margin: 0 auto;
   }
 }

@@ -94,8 +94,8 @@ a{
 
 .sidebyside{
   border-radius: 10px;
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
 }
 
 .outerContainer{
@@ -106,4 +106,35 @@ a{
 
 #infoSection{
   background-color: white;
+}
+
+.containerDiv{
+  display: flex;
+  justify-content:center;
+  padding: 2%;
+}
+
+.blueTitle{
+  color: #006098;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+
+.lineBreak{
+  margin-top: 5px;
+}
+
+.textDiv{
+  width: 30%;
+}
+
+.paragraphText{
+  font-size: 25px;
+}
+
+section{
+  margin-top: 8%;
 }
