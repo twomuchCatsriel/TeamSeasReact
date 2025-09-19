@@ -19,6 +19,13 @@ function CustomButton({variant, buttonText, linkDestination}){
             </a>
         )
     }
+    else if(variant == "none"){
+        return(
+            <a className="custombuttons" style={{
+                display:"none"
+            }} href={linkDestination}>{buttonText}</a>
+        )
+    }
 }
 
 export default CustomButton;

@@ -12,7 +12,10 @@ function FrontPage() {
         <ContrastTextbox 
         subheaderText="Verdens hav er i fare." 
         headerText="Det er opp til oss å redde dem."
-        infoText="#TeamSeas er en frivillig organisasjon som fokuserer på Sjø og Hav-konservasjon.">
+        infoText="#TeamSeas er en frivillig organisasjon som fokuserer på Sjø og Hav-konservasjon."
+        buttonvariant1="blue"
+        buttonvariant2="orange">
+        
         </ContrastTextbox>
     </div>)
 }
