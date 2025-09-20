@@ -65,7 +65,10 @@
   .flipped{
     display: flex;
     flex-direction: column;
-    background-color: red;
+  }
+
+  .blueTitle{
+    padding: 5%;
   }
 
   .paragraphText{
@@ -79,7 +82,15 @@
     margin: 0 auto;
   }
 
-  section{
-    padding: 10%;
+  footer{
+    width: 100%;
+  }
+
+  #outerFooterbarContainer{
+    display: block;
+  }
+
+  #outerFooterbarContainer div{
+    width: 100%;
   }
 }

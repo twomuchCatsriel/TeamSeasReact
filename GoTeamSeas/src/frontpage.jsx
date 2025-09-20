@@ -3,6 +3,7 @@ import NavBar from './navigationBar'
 import SetBackgroundImage from './backgroundImage'
 import ContrastTextbox from './contrastTextbox'
 import ImageAndText from './ImageAndTextSidebySide'
+import Footerbar from './footerbar'
 
 
 function FrontPage() {
@@ -34,7 +35,8 @@ function FrontPage() {
             Alle donasjoner blir bare brukt til å fremme havkonservasjon, og vil aldri bli brukt til noe annet."
             paragraphText2="Hvis du ikke er i en stilling hvor du kan komfortabelt donere, kan du hjelpe oss med å spre ordet, eller å bli med på frivillige arrangamenter for å rydde opp strender nær deg."
             ></ImageAndText>
-            "
+            
+            <Footerbar></Footerbar>
         </section>
     </div>)
 }

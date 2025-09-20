@@ -138,3 +138,75 @@ a{
 section{
   margin-top: 10%;
 }
+
+#outerFooterbarContainer div{
+  width: 33%;
+  padding: 10px;
+}
+
+#outerFooterbarContainer{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#outerFooterbarContainer div img{
+  width: 80%;
+}
+
+.footerText{
+  color: #006098;
+  font-size: x-large;
+}
+
+footer .blueTitle{
+  text-decoration: underline;
+}
+
+footer a{
+  color: #006098;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration:none;
+}
+
+footer a:hover{
+  color: #47bcc2;
+  text-decoration: underline;
+}
+
+footer ul{
+  list-style-type: "> ";
+  text-align: left;
+}
+ 
+.listDiv{
+  margin: 0 auto;
+}
+
+#socialsList{
+  list-style: none;
+}
+
+#socialsList li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+#socialsList li::before{
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.twitter::before { background-image: url("./icons8-twitter-50.png"); }
+.tiktok::before { background-image: url("./icons8-tiktok-50.png"); }
+.reddit::before { background-image: url("./icons8-reddit-50.png"); }
+.youtube::before { background-image: url("./icons8-youtube-50.png"); }
+.facebook::before { background-image: url("./icons8-facebook-50.png"); }
+.instagram::before { background-image: url("./icons8-instagram-50.png"); }
