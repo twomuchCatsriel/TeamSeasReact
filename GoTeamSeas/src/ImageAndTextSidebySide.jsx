@@ -4,7 +4,7 @@ function ImageAndText({variant, imagePath, headerText, paragraphText, paragraphT
     if(variant == "imageLeft"){
         return(
             <div className="containerDiv" style={{
-                gap:"20px"
+                gap:"5%"
 
             }}>
                 <img src={imagePath} className="sidebyside"></img>
@@ -16,6 +16,22 @@ function ImageAndText({variant, imagePath, headerText, paragraphText, paragraphT
 
                     <p className="paragraphText linebreak">{paragraphText2}</p>
                 </div>
+            </div>
+        )
+    } else if(variant == "imageRight"){
+        return(
+            <div className="containerDiv flipped" style={{
+                gap: "5%"
+            }}>
+                <div className="textDiv">
+                    <p className="blueTitle">{headerText}</p>
+
+                    <p className="paragraphText">{paragraphText}</p>
+
+                    <p className="paragraphText linebreak">{paragraphText2}</p>
+                </div>
+
+                <img src={imagePath} className="sidebyside"></img>
             </div>
         )
     }

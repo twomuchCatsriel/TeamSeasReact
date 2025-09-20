@@ -13,7 +13,7 @@ function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, b
 
                 <p style={{
                     color:"white",
-                    fontSize:"large",
+                    fontSize:"20px",
                 }}>{subheaderText}</p>
 
                 <h1 style={{
@@ -22,7 +22,7 @@ function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, b
 
                 <p style={{
                     color: "white",
-                    fontSize: "large"
+                    fontSize: "20px"
                 }}>{infoText}</p>
 
                 <div id="buttonsContainer">
