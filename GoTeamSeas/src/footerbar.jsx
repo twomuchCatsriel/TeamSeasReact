@@ -29,11 +29,11 @@ function Footerbar(){
                     <div className="listDiv">
                         <ul id="socialsList">
                             <li className="twitter"> <a href="https://x.com/teamseas">Twitter</a> </li>
-                            <li className="tiktok"> <a href="https://x.com/teamseas">TikTok</a> </li>
-                            <li className="reddit"> <a href="https://x.com/teamseas">Reddit</a> </li>
-                            <li className="youtube"> <a href="https://x.com/teamseas">YouTube</a> </li>
-                            <li className="facebook"> <a href="https://x.com/teamseas">FaceBook</a> </li>
-                            <li className="instagram"> <a href="https://x.com/teamseas">Instagram</a> </li>
+                            <li className="tiktok"> <a href="https://www.tiktok.com/@teamseas">TikTok</a> </li>
+                            <li className="reddit"> <a href="https://www.reddit.com/r/TeamSeas/">Reddit</a> </li>
+                            <li className="youtube"> <a href="https://www.youtube.com/c/teamseas">YouTube</a> </li>
+                            <li className="facebook"> <a href="https://www.facebook.com/TeamSeas/">FaceBook</a> </li>
+                            <li className="instagram"> <a href="https://www.instagram.com/teamseas/">Instagram</a> </li>
                         </ul>
                     </div>
                 </div>
