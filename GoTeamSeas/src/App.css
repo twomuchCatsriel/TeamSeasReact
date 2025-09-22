@@ -96,6 +96,7 @@ a{
   border-radius: 10px;
   width: 25%;
   height: 25%;
+  align-self: center;
 }
 
 .outerContainer{

@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import './app.css'
-import './appMobile.css'
-import FrontPage from './frontpage'
+import { createBrowserRouter } from "react-router-dom";
+import FrontPage from "./pages/frontpage";
+import TestPage from "./test";
 
+const router= createBrowserRouter([
+  {
+    path: "/",
+    element: <FrontPage></FrontPage>
+  },
+  {
+    path: "/test",
+    element: <TestPage></TestPage>
+  }
+])
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <FrontPage></FrontPage>
-  )
-}
-
-export default App
+export default router;

@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import NavBar from './navigationBar'
-import SetBackgroundImage from './backgroundImage'
-import ContrastTextbox from './contrastTextbox'
-import ImageAndText from './ImageAndTextSidebySide'
-import Footerbar from './footerbar'
+import NavBar from '../navigationBar'
+import SetBackgroundImage from '../backgroundImage'
+import ContrastTextbox from '../contrastTextbox'
+import ImageAndText from '../ImageAndTextSidebySide'
+import Footerbar from '../footerbar'
 
 
 function FrontPage() {

@@ -10,7 +10,7 @@ function NavBar(){
                     <li className="showOnMobile"> <a href="https://youtube.com"><img src="./public/TeamSeasLogo_Round.png" height={50}></img> </a></li>
 
                     <div id="links" style={{marginLeft: "auto"}}>
-                        <li> <a href="https://youtube.com" className="normalNavLink">Om Oss</a> </li>
+                        <li> <a href="/test" className="normalNavLink">Om Oss</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Donasjoner</a> </li>
                         <li className="hideOnMobile"> <a href="https://youtube.com" className="normalNavLink">Arrangementer</a> </li>
