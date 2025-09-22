@@ -105,7 +105,7 @@ a{
   margin-top: 2%;
 }
 
-#infoSection{
+.infoSection{
   background-color: white;
 }
 
@@ -211,3 +211,10 @@ footer ul{
 .youtube::before { background-image: url("./icons8-youtube-50.png"); }
 .facebook::before { background-image: url("./icons8-facebook-50.png"); }
 .instagram::before { background-image: url("./icons8-instagram-50.png"); }
+
+.frontpageContainer{
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15%;
+}

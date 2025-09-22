@@ -24,7 +24,7 @@ function FrontPage() {
             <img src='./Volunteer.jpg' className='sidebyside' id='topImage'></img>
         </div>
 
-        <section id='infoSection'>
+        <section className='infoSection'>
             <ImageAndText variant="imageLeft" imagePath="./TheOceanCleanup.png" headerText="Kutter av kilden" paragraphText="
             Plastikk i havet er et stort problem som ikke har en konkret løsning. #TeamSeas jobber derfor sammen med The Ocean Cleanup for å kutte av problemet ved kilden ved å fange opp søppelet fra de mest forurensende elvene før det kommer ut i havet."
             paragraphText2="#TeamSeas jobber også med å rydde opp søppel og plastikk på strender verden rundt. Vi jobber sammen med lokalbefolkningen for å gjøre en varig forskjell fra strand til strand.">

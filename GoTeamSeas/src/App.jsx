@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import FrontPage from "./pages/frontpage";
-import TestPage from "./test";
+import AboutUs from "./pages/aboutus";
 
 const router= createBrowserRouter([
   {
@@ -8,8 +8,8 @@ const router= createBrowserRouter([
     element: <FrontPage></FrontPage>
   },
   {
-    path: "/test",
-    element: <TestPage></TestPage>
+    path: "/omoss",
+    element: <AboutUs></AboutUs>
   }
 ])
 

@@ -93,4 +93,13 @@
   #outerFooterbarContainer div{
     width: 100%;
   }
+
+  .frontpageContainer{
+    width: 95%;
+    margin-top: 50%;
+  }
+
+  .infoSection{
+    margin-top: 50%
+  }
 }

@@ -1,13 +1,15 @@
 import React from "react";
 import CustomButton from "./buttons";
 
-function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, buttonvariant2}){
+function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, buttonvariant2, alignment, boxWidth}){
     return (
         <div>
             <div className="contrastTextboxBackground" style={{
-                backgroundColor: "rgba(0,0,0,0.4)",
+                backgroundColor: "rgba(0,0,0,0.5)",
                 padding:"10px",
                 borderRadius:"10px",
+
+                width: {boxWidth}
 
             }}>
 
@@ -18,6 +20,7 @@ function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, b
 
                 <h1 style={{
                     color:"white",
+                    textAlign: {alignment}
                 }}>{headerText}</h1>
 
                 <p style={{
