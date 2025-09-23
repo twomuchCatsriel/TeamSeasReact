@@ -5,6 +5,10 @@ body{
   background-color: #006098;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 .backgroundImage{
   opacity: 0.6;
   width: 100%;
@@ -217,4 +221,8 @@ footer ul{
   text-align: center;
   margin: 0 auto;
   margin-top: 15%;
+}
+
+.hamburger{
+  display: none;
 }

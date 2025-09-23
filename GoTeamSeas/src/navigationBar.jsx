@@ -1,7 +1,13 @@
-import React from "react";
+import { useState } from "react";
 import CustomButton from "./buttons";
 
 function NavBar(){
+    const [hamburgerStatus, setHamburgerOpen] = useState(false);
+
+    function toggleHamburger(){
+        setHamburgerOpen(prev => !prev) // Flip state
+    }
+
     return(
         <nav>
             <div>
@@ -13,10 +19,21 @@ function NavBar(){
                         <li> <a href="/omoss" className="normalNavLink">Om Oss</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Donasjoner</a> </li>
-                        <li className="hideOnMobile"> <a href="https://youtube.com" className="normalNavLink">Arrangementer</a> </li>
-                        <li className="hideOnMobile"> <a href="https://youtube.com" className="normalNavLink">Logg inn</a> </li>
+                        <li> <a href="https://youtube.com" className="normalNavLink">Arrangementer</a> </li>
+                        <li> <a href="https://youtube.com" className="normalNavLink">Logg inn</a> </li>
+                        <li> <button className="hamburger" onClick={toggleHamburger}> <img src="hamburber.svg"></img> </button></li>
                     </div>
                 </ul>
+
+                <div id="newLinks" style={{
+                    display: hamburgerStatus ? 'block' : 'none'
+                }}>
+                    <a href="/omoss" className="normalNavLink">Om Oss</a>
+                    <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a>
+                    <a href="https://youtube.com" className="normalNavLink">Donasjoner</a>
+                    <a href="https://youtube.com" className="normalNavLink">Arrangementer</a>
+                    <a href="https://youtube.com" className="normalNavLink">Logg inn</a>
+                </div>
             </div>
         </nav>
     )
