@@ -6,7 +6,6 @@ function NavBar(){
 
     function toggleHamburger(){
         setHamburgerOpen(prev => !prev) // Flip state
-        console.log(hamburgerStatus)
     }
 
     return(
@@ -27,7 +26,7 @@ function NavBar(){
                 </ul>
 
                 <div id="newLinks" style={{
-                    display: hamburgerStatus ? 'inline' : 'none'
+                    display: hamburgerStatus ? 'block' : 'none'
                 }}>
                     <a href="/omoss" className="normalNavLink">Om Oss</a>
                     <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a>
