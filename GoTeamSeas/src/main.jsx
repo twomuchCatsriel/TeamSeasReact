@@ -13,5 +13,5 @@ createRoot(document.getElementById('root')).render(
     <Suspense fallback={<h1>loading</h1>}>
       <RouterProvider router={router}></RouterProvider>
     </Suspense>
-  </StrictMode>,
+  </StrictMode>
 )
