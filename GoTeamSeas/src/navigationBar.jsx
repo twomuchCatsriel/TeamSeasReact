@@ -5,7 +5,7 @@ function NavBar(){
     const [hamburgerStatus, setHamburgerOpen] = useState(false);
 
     function toggleHamburger(){
-        setHamburgerOpen(!hamburgerStatus)
+        setHamburgerOpen(prev => !prev) // Flip state
         console.log(hamburgerStatus)
     }
 
@@ -25,6 +25,16 @@ function NavBar(){
                         <li> <button className="hamburger" onClick={toggleHamburger}> <img src="hamburber.svg"></img> </button></li>
                     </div>
                 </ul>
+
+                <div id="newLinks" style={{
+                    display: hamburgerStatus ? 'inline' : 'none'
+                }}>
+                    <a href="/omoss" className="normalNavLink">Om Oss</a>
+                    <a href="https://youtube.com" className="normalNavLink">Bli Frivillig</a>
+                    <a href="https://youtube.com" className="normalNavLink">Donasjoner</a>
+                    <a href="https://youtube.com" className="normalNavLink">Arrangementer</a>
+                    <a href="https://youtube.com" className="normalNavLink">Logg inn</a>
+                </div>
             </div>
         </nav>
     )

@@ -107,8 +107,8 @@
     display: inline;
     width: 10%;
     height: 10%;
-    background: none;
     border: none;
+    background: none;
 
     justify-self: right;
     align-self: center;
@@ -123,5 +123,13 @@
 
   #links a{
     display: none;
+  }
+  
+  #newLinks a{
+    display: block;
+  }
+
+  #newlinks{
+    background-color: red;
   }
 }
