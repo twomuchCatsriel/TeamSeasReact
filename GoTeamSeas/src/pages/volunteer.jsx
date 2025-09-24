@@ -9,7 +9,7 @@ function VolunteerPage(){
             <NavBar></NavBar>
             <SetBackgroundImage path="./VolunteerImage.jpg"></SetBackgroundImage>
 
-            <div className="frontpageContainer">
+            <div className="frontpageContainer infoVolunteer">
                 <ContrastTextbox 
                 headerText="Bli Frivillig i #TeamSeas"
                 infoText="#TeamSeas trenger din hjelp for å kunne gjøre en forskjell. Vi har arrangementer over hele verden, og vi vil gjerne ha deg med på laget."
@@ -19,6 +19,10 @@ function VolunteerPage(){
                 
                 ></ContrastTextbox>
             </div>
+
+            <section className="infoSection">
+                <p className="blueTitle">test</p>
+            </section>
         </div>
     )
 }
