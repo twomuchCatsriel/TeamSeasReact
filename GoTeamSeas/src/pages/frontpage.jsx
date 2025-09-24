@@ -18,7 +18,12 @@ function FrontPage() {
             headerText="Det er opp til oss å redde dem."
             infoText="#TeamSeas er en frivillig organisasjon som fokuserer på Sjø og Hav-konservasjon."
             buttonvariant1="blue"
-            buttonvariant2="orange">
+            buttonvariant2="orange"
+            button1_destination="/omoss"
+            button1_text="Mer om oss"
+            button2_destination="https://youtube.com/"
+            button2_text="Støtt oss"
+            >
             </ContrastTextbox>
 
             <img src='./Volunteer.jpg' className='sidebyside' id='topImage'></img>
