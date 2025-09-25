@@ -142,4 +142,9 @@
     right: 0%;
     border-radius: 0px 0px 5px 5px;
   }
+
+  .volunteerInfoSection p{
+    margin: 0 auto;
+  }
+
 }
