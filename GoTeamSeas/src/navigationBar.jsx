@@ -30,7 +30,7 @@ function NavBar(){
                 }}>
                     <a href="/omoss" className="normalNavLink">Om Oss</a>
                     <a href="/frivillig" className="normalNavLink">Bli Frivillig</a>
-                    <a href="https://youtube.com" className="normalNavLink">Donasjoner</a>
+                    <a href="/donasjon" className="normalNavLink">Donasjoner</a>
                     <a href="https://youtube.com" className="normalNavLink">Arrangementer</a>
                     <a href="https://youtube.com" className="normalNavLink">Logg inn</a>
                 </div>
