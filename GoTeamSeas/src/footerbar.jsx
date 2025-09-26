@@ -17,7 +17,7 @@ function Footerbar(){
                         <ul>
                             <li> <a href="/omoss">Om Oss</a> </li>
                             <li> <a href="/frivillig">Bli Frivillig</a> </li>
-                            <li> <a href="https://youtube.com">Donasjoner</a> </li>
+                            <li> <a href="/donasjon">Donasjoner</a> </li>
                             <li> <a href="https://youtube.com">Arrangementer</a> </li>
                             <li> <a href="https://youtube.com">Logg inn</a> </li>
                         </ul>
