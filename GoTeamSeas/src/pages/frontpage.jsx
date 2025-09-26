@@ -21,7 +21,7 @@ function FrontPage() {
             buttonvariant2="orange"
             button1_destination="/omoss"
             button1_text="Mer om oss"
-            button2_destination="https://youtube.com/"
+            button2_destination="/donasjon"
             button2_text="Støtt oss"
             >
             </ContrastTextbox>
