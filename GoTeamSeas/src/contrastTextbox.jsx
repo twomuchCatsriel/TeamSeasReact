@@ -1,7 +1,7 @@
 import React from "react";
 import CustomButton from "./buttons";
 
-function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, buttonvariant2, alignment, boxWidth}){
+function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, buttonvariant2, alignment, boxWidth, button1_text, button2_text, button1_destination, button2_destination}){
     return (
         <div>
             <div className="contrastTextboxBackground" style={{
@@ -29,8 +29,8 @@ function ContrastTextbox({subheaderText, headerText, infoText, buttonvariant1, b
                 }}>{infoText}</p>
 
                 <div id="buttonsContainer">
-                    <CustomButton variant={buttonvariant1} buttonText="Mer Om Oss" linkDestination="/omoss"></CustomButton>
-                    <CustomButton variant={buttonvariant2} buttonText="Støtt oss" linkDestination="https://youtube.com"></CustomButton>
+                    <CustomButton variant={buttonvariant1} buttonText={button1_text} linkDestination={button1_destination}></CustomButton>
+                    <CustomButton variant={buttonvariant2} buttonText={button2_text} linkDestination={button2_destination}></CustomButton>
                 </div>
             </div>
         </div>)

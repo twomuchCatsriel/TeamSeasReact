@@ -15,8 +15,8 @@ function Footerbar(){
                     <p className="blueTitle">Sider</p>
                     <div className="listDiv">
                         <ul>
-                            <li> <a href="https://youtube.com">Om Oss</a> </li>
-                            <li> <a href="https://youtube.com">Bli Frivillig</a> </li>
+                            <li> <a href="/omoss">Om Oss</a> </li>
+                            <li> <a href="/frivillig">Bli Frivillig</a> </li>
                             <li> <a href="https://youtube.com">Donasjoner</a> </li>
                             <li> <a href="https://youtube.com">Arrangementer</a> </li>
                             <li> <a href="https://youtube.com">Logg inn</a> </li>
