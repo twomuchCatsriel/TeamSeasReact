@@ -18,7 +18,7 @@ function NavBar(){
                     <div id="links" style={{marginLeft: "auto"}}>
                         <li> <a href="/omoss" className="normalNavLink">Om Oss</a> </li>
                         <li> <a href="/frivillig" className="normalNavLink">Bli Frivillig</a> </li>
-                        <li> <a href="https://youtube.com" className="normalNavLink">Donasjoner</a> </li>
+                        <li> <a href="/donasjon" className="normalNavLink">Donasjoner</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Arrangementer</a> </li>
                         <li> <a href="https://youtube.com" className="normalNavLink">Logg inn</a> </li>
                         <li> <button className="hamburger" onClick={toggleHamburger}> <img src="hamburber.svg"></img> </button></li>
