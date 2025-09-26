@@ -30,7 +30,8 @@ function VolunteerPage(){
                 <BasicTextComponent variant="blue" text="Hva gjør en frivillig?"/>
                 <BasicTextComponent text="Våre frivillige jobbed med å rydde opp strender rundt om hele Norge. Som en frivillig, så vil du rydde strender i ditt nærområde."></BasicTextComponent>
                 <BasicTextComponent variant="blue" text="Hvorfor bli frivillig?"></BasicTextComponent>
-                <BasicTextComponent text="Ved å bli frivillig, så har du muligheten til å hjelpe miljøet og nærområdet ditt. ddddddddddddddddddddddddddddddddddddddddddddddddddd"></BasicTextComponent>
+                <BasicTextComponent text="Ved å bli frivillig, så har du muligheten til å rydde miljøet og nærområdet ditt fra plast med andre mennesker."></BasicTextComponent>
+                <BasicTextComponent text="Vi fremmer et sammarbeid som gjør det enkelt å holde strendene våre rene og fine."></BasicTextComponent>
             </section>
 
             <Footerbar></Footerbar>
