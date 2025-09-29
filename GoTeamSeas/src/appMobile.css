@@ -26,10 +26,10 @@
     display: none;
   }
 
-  .contrastTextboxBackground{
-    width: 85%;
-    margin: 0 auto;
+  .contrastTextboxBackground {
+    width: 90%;
     margin-top: 10px;
+    margin: 0 auto;
   }
 
   .custombuttons{
@@ -43,7 +43,6 @@
 
   .outerContainer{
     display: inline;
-
   }
 
   .outerContainer img{
@@ -146,6 +145,24 @@
 
   .volunteerInfoSection p{
     margin: 0 auto;
+  }
+
+  .arrangementsPage{
+    margin-top: 10px;
+  }
+
+  .backgroundImage{
+  width: 100%;
+  height: 100%;
+  }
+
+  .contrastImageBox{
+    margin-top: 10px;
+  } 
+
+  .workpls{
+    margin: 0 auto;
+    display: flex;
   }
 
 }

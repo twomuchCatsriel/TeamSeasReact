@@ -3,6 +3,7 @@ import FrontPage from "./pages/frontpage";
 import AboutUs from "./pages/aboutus";
 import VolunteerPage from "./pages/volunteer";
 import DonationPage from "./pages/donate";
+import ArrangementsPage from "./pages/arrangements";
 
 const router= createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router= createBrowserRouter([
   {
     path: "/donasjon",
     element: <DonationPage></DonationPage>
+  },
+  {
+  path: "/arrangementer",
+  element: <ArrangementsPage></ArrangementsPage>
   }
 ])
 
