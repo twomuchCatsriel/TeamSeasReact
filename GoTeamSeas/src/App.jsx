@@ -4,6 +4,7 @@ import AboutUs from "./pages/aboutus";
 import VolunteerPage from "./pages/volunteer";
 import DonationPage from "./pages/donate";
 import ArrangementsPage from "./pages/arrangements";
+import LoginPage from "./pages/loginPage";
 
 const router= createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router= createBrowserRouter([
   {
   path: "/arrangementer",
   element: <ArrangementsPage></ArrangementsPage>
+  },
+  {
+    path: "/innlogging",
+    element: <LoginPage></LoginPage>
   }
 ])
 

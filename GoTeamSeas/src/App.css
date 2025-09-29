@@ -262,3 +262,44 @@ footer ul{
   width:100%;
   margin-bottom: 5%;
 }
+
+.passwordBox{
+  padding: 10px;
+  width: 100%;
+}
+
+.passwordBox input{
+  float: right;
+}
+
+.outerPasswordBox{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.outerPasswordBox .headerText{
+  text-align: center;
+}
+
+form label{
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+input{
+  padding: 12px 15px;
+  width: 90%;
+  font-size: 16px;
+}
+
+#submitButton{
+  background-color: #006098;
+  width: 20%;
+}
