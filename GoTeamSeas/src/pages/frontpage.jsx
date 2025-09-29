@@ -40,9 +40,9 @@ function FrontPage() {
             Alle donasjoner blir bare brukt til å fremme havkonservasjon, og vil aldri bli brukt til noe annet."
             paragraphText2="Hvis du ikke er i en stilling hvor du kan komfortabelt donere, kan du hjelpe oss med å spre ordet, eller å bli med på frivillige arrangamenter for å rydde opp strender nær deg."
             ></ImageAndText>
-            
-            <Footerbar></Footerbar>
         </section>
+
+        <Footerbar></Footerbar>
     </div>)
 }
 
