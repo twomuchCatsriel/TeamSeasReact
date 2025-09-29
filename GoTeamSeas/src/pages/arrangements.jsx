@@ -10,10 +10,10 @@ function ArrangementsPage(){
     return ( 
         <div>
             <NavBar></NavBar>
-            <SetBackgroundImage path="./People.png"></SetBackgroundImage>
+            <SetBackgroundImage path="./People.png" style={{width:"100%"}}></SetBackgroundImage>
             <div className="frontpageContainer arrangementsPage">
                 <ContrastTextbox headerText="Lokale arrangementer" infoText="#TeamSeas Arrangementer i ditt nærområde"></ContrastTextbox>
-                <div style={{
+                <div className="workpls" style={{
                     width:"90%",
                     margin: "0 auto"
                 }}>
