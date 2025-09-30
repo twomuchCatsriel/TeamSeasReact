@@ -19,7 +19,10 @@ function LoginPage(){
                     <input type="text" placeholder="Brukernavn" id="userSubmit"></input>
                     <label>Passord:</label>
                     <input type="password" placeholder="Passord" id="passwordSubmit"></input>
+
+                    <div className="submitButtons">
                     <input type="submit" className="custombuttons" id="submitButton" value="Submit"></input>
+                    </div>
                 </form>
             </div>
         </div>

@@ -20,7 +20,7 @@ function NavBar(){
                         <li> <a href="/frivillig" className="normalNavLink">Bli Frivillig</a> </li>
                         <li> <a href="/donasjon" className="normalNavLink">Donasjoner</a> </li>
                         <li> <a href="/arrangementer" className="normalNavLink">Arrangementer</a> </li>
-                        <li> <a href="https://youtube.com" className="normalNavLink">Logg inn</a> </li>
+                        <li> <a href="/innlogging" className="normalNavLink">Logg inn</a> </li>
                         <li> <button className="hamburger" onClick={toggleHamburger}> <img src="hamburber.svg"></img> </button></li>
                     </div>
                 </ul>
@@ -32,7 +32,7 @@ function NavBar(){
                     <a href="/frivillig" className="normalNavLink">Bli Frivillig</a>
                     <a href="/donasjon" className="normalNavLink">Donasjoner</a>
                     <a href="/arrangementer" className="normalNavLink">Arrangementer</a>
-                    <a href="https://youtube.com" className="normalNavLink">Logg inn</a>
+                    <a href="/innlogging" className="normalNavLink">Logg inn</a>
                 </div>
             </div>
         </nav>
