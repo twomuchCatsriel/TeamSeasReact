@@ -26,7 +26,7 @@ function FrontPage() {
             >
             </ContrastTextbox>
 
-            <img src='./Volunteer.jpg' className='sidebyside' id='topImage'></img>
+            <img src='./Volunteer.jpg' className='sidebyside' id='topImage' alt='En TeamSeas frivillig på en strand under et arrangement'></img>
         </div>
 
         <section className='infoSection'>
