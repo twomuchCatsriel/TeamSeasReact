@@ -34,7 +34,9 @@ function VolunteerPage(){
                 <BasicTextComponent text="Vi fremmer et sammarbeid som gjør det enkelt å holde strendene våre rene og fine."></BasicTextComponent>
             </section>
 
-            <Footerbar></Footerbar>
+            <div className="moveFooterDown">
+                <Footerbar></Footerbar>
+            </div>
         </div>
     )
 }

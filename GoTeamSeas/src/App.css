@@ -169,6 +169,7 @@ section{
 
 footer .blueTitle{
   text-decoration: underline;
+  text-align: left;
 }
 
 footer a{
@@ -187,10 +188,11 @@ footer ul{
   list-style-type: "> ";
   text-align: left;
 }
- 
-.listDiv{
-  margin: 0 auto;
+
+.pagesTitle{
+  margin-left: 5rem;
 }
+ 
 
 #socialsList{
   list-style: none;
