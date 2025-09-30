@@ -1,5 +1,5 @@
 # TeamSeasReact
-A school project where we had to make a website for a Non-profit. I got to choose #TeamSeas because I think they're awesome.
+A school project where we had to make a website for a Non-profit. I got to choose #TeamSeas because I think they're awesome. Project is written in Norwegian, and does //NOT// INCLUDE ACTUAL DONATION LINKS. 
 
 # Stack
 This project is built using Vite's REACT Template, without a framework. I considered using Next.JS, but since I'm still not entirely comfortable around REACT as of starting this project, I decided against it.
