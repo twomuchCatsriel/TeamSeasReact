@@ -18,3 +18,6 @@ Using the command line, run these commands:
 
 Doing this will open a developer sever, allowing you to run the site.
 This project is NOT FINISHED YET, so it has not been built. 
+
+You need the VITE and REACT / REACT-DOM Dependancies to run this project.
+See a full list of required dependancies in the code.
