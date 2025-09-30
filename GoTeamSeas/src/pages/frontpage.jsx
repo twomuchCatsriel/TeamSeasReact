@@ -30,12 +30,12 @@ function FrontPage() {
         </div>
 
         <section className='infoSection'>
-            <ImageAndText variant="imageLeft" imagePath="./TheOceanCleanup.png" headerText="Kutter av kilden" paragraphText="
+            <ImageAndText variant="imageLeft" imagePath="./TheOceanCleanup.png" altText="En Robot fra The Ocean Cleanup" headerText="Kutter av kilden" paragraphText="
             Plastikk i havet er et stort problem som ikke har en konkret løsning. #TeamSeas jobber derfor sammen med The Ocean Cleanup for å kutte av problemet ved kilden ved å fange opp søppelet fra de mest forurensende elvene før det kommer ut i havet."
             paragraphText2="#TeamSeas jobber også med å rydde opp søppel og plastikk på strender verden rundt. Vi jobber sammen med lokalbefolkningen for å gjøre en varig forskjell fra strand til strand.">
             </ImageAndText>
 
-            <ImageAndText variant="imageRight" imagePath="./People.png" headerText="Hvorfor støtte #TeamSeas?" paragraphText="
+            <ImageAndText variant="imageRight" imagePath="./People.png" headerText="Hvorfor støtte #TeamSeas?" altText="A arrangement from TeamSeas at a Beach" paragraphText="
             #TeamSeas trenger din støtte for å kunne fortsette med havkonservasjon. Alle donasjoner blir delt likt med The Ocean Cleanup for at vi skal kunne fortsette med å kutte av plastikk fra kilden, og fjerne søppel fra strender verden rundt.
             Alle donasjoner blir bare brukt til å fremme havkonservasjon, og vil aldri bli brukt til noe annet."
             paragraphText2="Hvis du ikke er i en stilling hvor du kan komfortabelt donere, kan du hjelpe oss med å spre ordet, eller å bli med på frivillige arrangamenter for å rydde opp strender nær deg."

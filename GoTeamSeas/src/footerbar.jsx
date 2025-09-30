@@ -7,7 +7,7 @@ function Footerbar(){
         }}>
             <div id="outerFooterbarContainer">
                 <div className="footerBox1"> 
-                    <img src="./TeamSeasLogo_Big.png"></img>
+                    <img src="./TeamSeasLogo_Big.png" alt="Big Team Seas Logo"></img>
                     <p className="footerText">#TeamSeas arbeider for en framtid uten plast i havene eller på strendene våre. 
                     Med over 15,000,000 kg søppel fjernet så langt, så kan vi gjøre en varende forskjell.</p>
                 </div>

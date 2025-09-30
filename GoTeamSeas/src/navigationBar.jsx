@@ -12,8 +12,8 @@ function NavBar(){
         <nav>
             <div>
                 <ul>
-                    <li className="showOnPC"> <a href="/"><img src="./public/teamSeasLogo_Big.png" height={100}></img> </a></li>
-                    <li className="showOnMobile"> <a href="/"><img src="./public/TeamSeasLogo_Round.png" height={50}></img> </a></li>
+                    <li className="showOnPC"> <a href="/"><img src="./public/teamSeasLogo_Big.png" alt="Big Team Seas Logo" height={100}></img> </a></li>
+                    <li className="showOnMobile"> <a href="/"><img src="./public/TeamSeasLogo_Round.png" alt="Small Team Seas Logo" height={50}></img> </a></li>
 
                     <div id="links" style={{marginLeft: "auto"}}>
                         <li> <a href="/omoss" className="normalNavLink">Om Oss</a> </li>

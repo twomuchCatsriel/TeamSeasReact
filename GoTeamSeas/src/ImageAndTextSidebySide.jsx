@@ -1,13 +1,13 @@
 import React from "react";
 
-function ImageAndText({variant, imagePath, headerText, paragraphText, paragraphText2}){
+function ImageAndText({variant, imagePath, headerText, paragraphText, paragraphText2, altText}){
     if(variant == "imageLeft"){
         return(
             <div className="containerDiv" style={{
                 gap:"5%"
 
             }}>
-                <img src={imagePath} className="sidebyside"></img>
+                <img src={imagePath} className="sidebyside" alt={altText}></img>
 
                 <div className="textDiv">
                     <p className="blueTitle">{headerText}</p>
@@ -31,7 +31,7 @@ function ImageAndText({variant, imagePath, headerText, paragraphText, paragraphT
                     <p className="paragraphText linebreak">{paragraphText2}</p>
                 </div>
 
-                <img src={imagePath} className="sidebyside"></img>
+                <img src={imagePath} className="sidebyside" alt={altText}></img>
             </div>
         )
     }

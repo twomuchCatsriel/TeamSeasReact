@@ -18,7 +18,7 @@ function ArrangementsPage(){
                     margin: "0 auto"
                 }}>
                     <div className="contrastImageBox">
-                        <img src="./HamarStrand.png" width={"100%"}></img>
+                        <img src="./HamarStrand.png" width={"100%"} alt="Koigen, Hamar"></img>
                         <BasicTextComponent text="Om 3 dager (01/01/1970)" variant="header"></BasicTextComponent>
                         <BasicTextComponent text="Koigen, Hamar Kommune" variant="white"></BasicTextComponent>
                         <CustomButton buttonText="Logg Inn" linkDestination="/innlogging" variant="blue"></CustomButton>

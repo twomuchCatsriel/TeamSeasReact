@@ -17,7 +17,7 @@ function VolunteerPage(){
                 infoText="#TeamSeas trenger din hjelp for å kunne gjøre en forskjell. Vi har arrangementer over hele verden, og vi vil gjerne ha deg med på laget."
                 buttonvariant2="orange"
                 button2_text="Meld deg på!"
-                button2_destination="https://youtube.com"
+                button2_destination="/frivillig"
                 
                 ></ContrastTextbox>
             </div>
