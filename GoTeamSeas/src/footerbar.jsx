@@ -12,7 +12,7 @@ function Footerbar(){
                     Med over 15,000,000 kg søppel fjernet så langt, så kan vi gjøre en varende forskjell.</p>
                 </div>
                 <div className="footerBox2">
-                    <p className="blueTitle">Sider</p>
+                    <p className="blueTitle pagesTitle">Sider</p>
                     <div className="listDiv">
                         <ul>
                             <li> <a href="/omoss">Om Oss</a> </li>

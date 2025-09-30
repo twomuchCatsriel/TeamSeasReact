@@ -169,4 +169,12 @@
     width: 90%;
   }
 
+  .pagesTitle{
+    margin: 0;
+  }
+
+  #socialsList{
+    padding-left: 1rem;
+  }
+
 }
