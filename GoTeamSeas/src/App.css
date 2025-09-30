@@ -275,7 +275,7 @@ footer ul{
 .outerPasswordBox{
   width: 50%;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 10rem;
 
   background-color: rgba(0,0,0,0.5);
   padding: 10px;
@@ -303,6 +303,8 @@ input{
   width: 100%;
   font-size: 16px;
   box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
 }
 
 #submitButton{
@@ -314,4 +316,8 @@ input{
   width: 10rem;
   margin: 0 auto;
   margin-top: 5rem;
+}
+
+.moveFooterDown{
+  margin-top: 20rem;
 }

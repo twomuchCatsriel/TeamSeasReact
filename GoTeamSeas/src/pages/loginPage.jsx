@@ -25,6 +25,10 @@ function LoginPage(){
                     </div>
                 </form>
             </div>
+
+            <div className="moveFooterDown">
+                <Footerbar></Footerbar>
+            </div>
         </div>
     )
 }
