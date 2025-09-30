@@ -262,3 +262,62 @@ footer ul{
   width:100%;
   margin-bottom: 5%;
 }
+
+.passwordBox{
+  padding: 10px;
+  width: 100%;
+}
+
+.passwordBox input{
+  float: right;
+}
+
+.outerPasswordBox{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10rem;
+
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.outerPasswordBox .headerText{
+  text-align: center;
+}
+
+form label{
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+form{
+  width: 90%;
+  margin: 0 auto;
+}
+
+input{
+  padding: 12px 15px;
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+}
+
+#submitButton{
+  background-color: #006098;
+  width: 100%;
+}
+
+.submitButtons{
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.moveFooterDown{
+  margin-top: 20rem;
+}
