@@ -67,7 +67,8 @@
   }
 
   .blueTitle{
-    padding: 5%;
+    padding: 1rem;
+    margin: 0;
   }
 
   .paragraphText{
@@ -99,7 +100,7 @@
   }
 
   .infoSection{
-    margin-top: 20%;
+    margin-top: 15rem;
     padding: 0;
   }
 
@@ -175,6 +176,12 @@
 
   #socialsList{
     padding-left: 1rem;
+    margin: 0;
+  }
+
+  ul{
+    padding-left: 1rem;
+    margin: 0;
   }
 
 }
